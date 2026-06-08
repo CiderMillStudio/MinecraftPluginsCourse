@@ -1,0 +1,8 @@
+name: learning01_minecraft_events
+description: $description
+version: '1.0-SNAPSHOT'
+
+main: com.wady.learning01_minecraft_events.Main
+api-version: '26.1'
+
+authors: [ Wady ]

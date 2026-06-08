@@ -1,0 +1,8 @@
+name: first_spigot_pluggin_ever
+description: $description
+version: '${version}'
+
+main: com.wady.first_spigot_pluggin_ever.Main
+api-version: '26.1'
+
+authors: [ Wady ]
