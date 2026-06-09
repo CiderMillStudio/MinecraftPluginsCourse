@@ -1,0 +1,8 @@
+name: learning02_spigot_commands
+description: $description
+version: '${version}'
+
+main: com.wady.learning02_spigot_commands.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]
