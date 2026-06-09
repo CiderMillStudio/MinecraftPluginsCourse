@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/learning01_minecraft_events.iml" filepath="$PROJECT_DIR$/learning01_minecraft_events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learning01_minecraft_events.iml" filepath="$PROJECT_DIR$/.idea/learning01_minecraft_events.iml" />
     </modules>
   </component>
 </project>
