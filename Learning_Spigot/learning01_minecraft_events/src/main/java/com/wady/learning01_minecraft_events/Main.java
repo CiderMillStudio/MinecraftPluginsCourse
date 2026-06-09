@@ -25,14 +25,14 @@ public final class Main extends JavaPlugin implements Listener {
         // e.getTo() --> gets where the player is moving to
         // There are so many getters, we can do so much!!
         e.setCancelled(true); // this cancels the player movement entirely, preventing them from moving (every time the player triggers the move event, it will get canceled.
-        e.getPlayer().sendMessage(ChatColor.RED + "Stop moving, you are frozen, yikes!");
+        e.getPlayer().sendMessage(ChatColor.RED + "Stop moving, you are frozen, brrrr!");
 
 
     }
 
     @EventHandler
     public void onPlayerEggThrow(PlayerEggThrowEvent e) {
-        e.getPlayer().sendMessage(ChatColor.AQUA + "You just threw an egg, you silly goose!");
+        e.getPlayer().sendMessage(ChatColor.AQUA + "You just threw an egg, will it hatch?!");
     }
 
 
