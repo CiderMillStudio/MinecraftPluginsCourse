@@ -1,6 +1,6 @@
 name: learning02_spigot_commands
 description: $description
-version: '${version}'
+version: '1.0-SNAPSHOT'
 
 main: com.wady.learning02_spigot_commands.Main
 api-version: '26.1'
