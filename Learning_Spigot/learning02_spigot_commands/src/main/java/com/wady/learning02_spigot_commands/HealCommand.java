@@ -14,6 +14,8 @@ public class HealCommand implements CommandExecutor {
         // String label we'll likely never have to use, ever.
         // String[] args we'll get to later. (separate lecture, complex, stay tuned.)
 
+
+
         if (sender instanceof Player) { // here, we're checking to see if the sender is an instance of the player class
             Player player = (Player) sender;
             player.sendMessage("Your health has been restored.");
@@ -24,4 +26,5 @@ public class HealCommand implements CommandExecutor {
 
         return false;
     }
+
 }

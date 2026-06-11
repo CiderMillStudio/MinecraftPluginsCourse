@@ -1,0 +1,12 @@
+name: learning03_spigot_commands_contd
+description: $description
+version: '${version}'
+
+main: com.wady.learning03_spigot_commands_contd.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]
+
+commands:
+  heal:
+    description: heals player to full health
