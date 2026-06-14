@@ -1,0 +1,12 @@
+name: learning04_commands_contd
+description: $description
+version: '${version}'
+
+main: com.wady.learning04_commands_contd.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]
+
+commands:
+  testCommand:
+    description: "just a test to see if args work!"
