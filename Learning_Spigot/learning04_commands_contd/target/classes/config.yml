@@ -1,0 +1,9 @@
+# notice how config files are set up as Key : value data types
+Word: 'Banana'
+Number: 52
+TradingEnabled: true
+String-list:
+  - "Value1"
+  - "Value2"
+  - "Value3"
+

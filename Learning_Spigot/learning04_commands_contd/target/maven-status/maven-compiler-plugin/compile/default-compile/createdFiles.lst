@@ -1,2 +1,4 @@
-com/wady/learning04_commands_contd/Main.class
 com/wady/learning04_commands_contd/TestCommand.class
+com/wady/learning04_commands_contd/TestConsoleCommand.class
+com/wady/learning04_commands_contd/ConfigCommand.class
+com/wady/learning04_commands_contd/Main.class

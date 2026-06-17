@@ -1,5 +1,6 @@
 package com.wady.learning04_commands_contd;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -13,14 +14,20 @@ public class TestCommand implements CommandExecutor {
         if (sender instanceof Player) {
 
             Player player = (Player) sender;
-
             if (args.length == 1) {
-
-                if (args[0].equals("hello")) {
+                if (args[0].equalsIgnoreCase("hello")) {
                     player.sendMessage("hello right back at you my friend!");
                 }
-
             }
+
+            if (player.hasPermission("testcommand.use")) {
+                player.sendMessage(ChatColor.GREEN + "You have permission to use testcommand.");
+            } else {
+                player.sendMessage(ChatColor.RED + "You do NOT have permission to use testcommand.");
+            }
+
+
+        } else {
 
         }
 

@@ -6,7 +6,12 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        getConfig().options().copyDefaults();
+        saveDefaultConfig(); // gotta have these two lines when working with config files
+
         getCommand("testCommand").setExecutor(new TestCommand());
+        getCommand("testConsoleCommand").setExecutor(new TestConsoleCommand());
+        getCommand("config").setExecutor(new ConfigCommand(this));
 
 
     }

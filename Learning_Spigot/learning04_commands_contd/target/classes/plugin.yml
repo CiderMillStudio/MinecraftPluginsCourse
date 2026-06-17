@@ -9,4 +9,8 @@ authors: [ Wady Jacoby ]
 
 commands:
   testCommand:
-    description: "just a test to see if args work!"
+    description: just a test to see if args work!
+  testConsoleCommand:
+    description: just makes sure that there's a way to talk to the console
+  config:
+
