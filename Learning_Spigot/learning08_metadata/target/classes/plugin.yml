@@ -1,0 +1,8 @@
+name: learning08_metadata
+description: $description
+version: '1.0-SNAPSHOT'
+
+main: com.wady.learning08_metadata.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]
