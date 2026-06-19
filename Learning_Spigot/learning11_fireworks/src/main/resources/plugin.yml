@@ -1,0 +1,8 @@
+name: learning11_fireworks
+description: $description
+version: '${version}'
+
+main: com.wady.learning11_fireworks.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]
