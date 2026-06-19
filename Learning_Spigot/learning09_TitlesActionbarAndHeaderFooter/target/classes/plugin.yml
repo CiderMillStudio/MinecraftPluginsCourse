@@ -1,0 +1,8 @@
+name: learning09_TitlesActionbarAndHeaderFooter
+description: $description
+version: '1.0-SNAPSHOT'
+
+main: com.wady.learning09_TitlesActionbarAndHeaderFooter.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]
