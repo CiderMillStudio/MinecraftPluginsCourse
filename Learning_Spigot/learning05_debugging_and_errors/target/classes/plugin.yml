@@ -1,0 +1,8 @@
+name: learning05_debugging_and_errors
+description: $description
+version: '1.0-SNAPSHOT'
+
+main: com.wady.learning05_debugging_and_errors.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]

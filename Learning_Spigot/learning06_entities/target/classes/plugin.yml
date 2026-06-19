@@ -1,0 +1,8 @@
+name: learning06_entities
+description: $description
+version: '1.0-SNAPSHOT'
+
+main: com.wady.learning06_entities.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]

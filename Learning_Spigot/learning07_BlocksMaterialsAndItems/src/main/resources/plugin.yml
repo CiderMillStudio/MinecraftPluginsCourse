@@ -1,0 +1,8 @@
+name: learning07_BlocksMaterialsAndItems
+description: $description
+version: '${version}'
+
+main: com.wady.learning07_BlocksMaterialsAndItems.Main
+api-version: '26.1'
+
+authors: [ Wady Jacoby ]
